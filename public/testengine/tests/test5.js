@@ -1,7 +1,7 @@
-/* It's incorrect test, because we send input value with submitting form and for such case we should avoid of
-frequent updates we should to set disable button search button, while our request is loading.
+/* It's the incorrect test, because we send the input value when submitting the form, and to avoid
+frequent updates, we should set the disable search button while our request is loading.
 
-But whis test try to check input in case if it will be search without button. In such case we need to use debaunce function for this input with delay.*/
+But the test tries to check input in case it will be searched without a button. In such a case, we need to use the debounce function for this input with a delay.*/
 
 describe("Task 5 - cancel request", function () {
   const desc =
